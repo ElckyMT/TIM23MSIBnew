@@ -6,11 +6,15 @@
   <title>Dashboard Tim 23 Balikpapan</title>
   <link rel="stylesheet" href="./css/DashboardCSS.css">  </head>
 </head>
+
+ <!-- header -->
 <body>
   <div class="img">
     <img src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png"
     style="width: 50px;height: 50px;">
   </div>
+
+  <!-- Bar Navigasi -->
   <nav class ="navbar-wrapper">
     <h1>Dashboard TIM 23</h1>
     <ul class="list-menu">
@@ -26,6 +30,27 @@
     </ul>
   </nav> 
 
+  <!-- filter -->
+  <div class="filter-container">
+    <label for="filter-month">Pilih Bulan:</label>
+    <select id="filter-month">
+      <option value="">Semua Bulan</option>
+      <option value="01">Januari</option>
+      <option value="02">Februari</option>
+      <option value="03">Maret</option>
+      <option value="04">April</option>
+      <option value="05">Mei</option>
+      <option value="06">Juni</option>
+      <option value="07">Juli</option>
+      <option value="08">Agustus</option>
+      <option value="09">September</option>
+      <option value="10">Oktober</option>
+      <option value="11">November</option>
+      <option value="12">Desember</option>
+      </select>
+  </div>
+
+<!-- Isi web:Dashboard -->
   <section class="hero-section">
     <div class="title"> 
       PIZZA SALES 2015
@@ -53,6 +78,7 @@
 
   </section>
     
+  <!-- footer -->
   </main>
 </div>
   <footer class="footer">
