@@ -54,6 +54,8 @@ nav{
   min-height: 700px;
   padding: 20px 80px;
   background-color:#a105ef; ;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
 }
