@@ -29,16 +29,23 @@
   justify-content: space-between;
 }
 
-/*  styling filter */
+/*  styling filter bulan */
 .filter-container {
   display: flex;
   background-color: #ca8bea;
+  display: flex;
 }
 
 .filter-month {
   flex: 1; /* Atur lebar filter sidebar */
   background-color: #ca8bea; /* Warna latar belakang filter sidebar */
   padding: 10px;
+}
+
+.filter-product {
+  display: flex;
+  background-color: #ca8bea;
+  display: flex;
 }
 
 /* styling title  */
